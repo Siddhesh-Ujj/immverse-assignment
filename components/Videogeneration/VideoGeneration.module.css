@@ -1,0 +1,116 @@
+/* styles/VideoGeneration.module.css */
+.mainContainer {
+    background: #1e1e2e; /* Dark background */
+    color: #f8f8f2; /* Light text */
+    min-height: 100vh; /* Ensure full height */
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoIcon {
+    background-color: white;
+    color: #bd93f9; /* Purple accent color */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .leftSidebar {
+    padding: 20px;
+    background-color: #282a36; /* Slightly lighter dark background */
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .sidebarTitle {
+    color: #bd93f9; /* Purple accent color */
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+  }
+  
+  .generateButton {
+    background-color: #bd93f9; /* Purple accent button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .generateButton:hover {
+    background-color: #8be9fd; /* Lighter purple on hover */
+    color: #282a36;
+  }
+  
+  .centralContent {
+    /* padding: 20px; */
+    /* background-color: #282a36; Slightly lighter dark background */
+    border-radius: 8px;
+    /* margin-right: 20px; */
+  }
+  
+  .videoPreviewRow {
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; */
+    padding: 10px 0 0 0 ;
+    background-color: #282a36; 
+    border-radius: 8px;
+  }
+  
+  .videoPreviewmain {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    height: 21vw; /* Adjust as needed */
+  }
+
+  .videoPreview {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10vw; /* Adjust as needed */
+  }
+  
+  .waveform {
+    background-color: #282a36;
+    border-radius: 5px;
+    padding: 10px 0 0 0;
+  }
+  
+  .bottomBar {
+    background-color: #282a36;
+    padding: 15px;
+    border-radius:50;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .bottomBarButton {
+    color: #f8f8f2;
+    text-decoration: none;
+  }
+  
+  .bottomBarButton:hover {
+    color: #8be9fd;
+  }
+  
+  .bottomBarIcon {
+    margin-right: 5px;
+  }

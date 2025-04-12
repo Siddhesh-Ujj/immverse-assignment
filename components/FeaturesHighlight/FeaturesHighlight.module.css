@@ -1,0 +1,39 @@
+/* styles/FeaturesHighlight.module.css */
+.mainContainer {
+    background: linear-gradient(135deg, #2e1a47, #4c3398); /* Similar gradient to the first image */
+  }
+  
+  .featuresTag {
+    font-size: 0.9rem;
+  }
+  
+  .mainHeading {
+    line-height: 1.2;
+  }
+  
+  .aiHighlight {
+    color: #bd93f9; /* Purple accent color for "AI" */
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tryNowButton {
+    background-color: #bd93f9;
+    border: none;
+  }
+  
+  .tryNowButton:hover {
+    background-color: #8be9fd;
+    color: #282a36;
+  }
+  
+  .learnMoreButton {
+    border: 1px solid #f8f8f2;
+  }
+  
+  .learnMoreButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }

@@ -1,0 +1,30 @@
+/* styles/PlatformSupport.module.css */
+
+
+.platformCard {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.platformCard:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #bd93f9;
+  /* Purple accent color for icons */
+}
+
+.platformName {
+  color: #f8f8f2;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.platformDescription {
+  color: #adb5bd;
+  /* Light grey for description */
+  font-size: 0.9rem;
+}

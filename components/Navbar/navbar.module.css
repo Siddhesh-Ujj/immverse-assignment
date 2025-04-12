@@ -1,0 +1,91 @@
+/* .activeNav {
+  background: -webkit-linear-gradient(#C824EC, #DF308D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}   
+
+.activeNav::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  top: 45;
+  left: auto;
+  margin-left: 1vw;
+  position: absolute;
+  height: 5px;
+  border-radius: 5px;
+  background: #fff;
+}   */
+
+/* styles/Header.module.css */
+.navbar {
+  background: #1e1e2e; 
+  padding: 15px 0;
+  /* background-color: transparent; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoIcon {
+  background-color: white;
+  color: #bd93f9; /* Purple accent color */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* Style for the four-pointed star (you might use an actual icon or more complex CSS) */
+/* .logoIcon::before {
+  content: '✨';
+} */
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navLink:hover {
+  opacity: 1;
+}
+
+.navLink.active {
+  opacity: 1;
+  font-weight: bold; /* To indicate active state */
+  /* You might add a more visual indicator like an underline */
+}
+
+.learnMoreButton {
+  background: linear-gradient(90deg, #8a2be2, #bd93f9); /* Purple gradient button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.learnMoreButton:hover {
+  opacity: 0.9;
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 991px) {
+  .justify-content-center {
+    justify-content: flex-start !important;
+  }
+  .learnMoreButton {
+    margin-left: auto; /* Push to the right on smaller screens if needed */
+  }
+}
