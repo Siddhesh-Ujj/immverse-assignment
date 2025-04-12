@@ -12,7 +12,7 @@ const VideoCreationProcess = () => {
                     <div className='h-75'>
                         <div className="mb-3">
                             <label htmlFor="storyTopic" className="form-label">Enter Your Story Topic</label>
-                            <input type="text" className="form-control" id="storyTopic" />
+                            <input type="text" className="form-control  bg-white bg-opacity-10 text-white" id="storyTopic" />
                         </div>
                         <div className="mb-3">
                             <label className="form-label">Select Story Tone</label>
@@ -25,7 +25,7 @@ const VideoCreationProcess = () => {
                         </div>
                         <div className="mb-3">
                             <label htmlFor="maxWords" className="form-label">Max Words</label>
-                            <input type="number" className="form-control" id="maxWords" />
+                            <input type="number" className="form-control  bg-white bg-opacity-10 text-white" id="maxWords" />
                         </div>
                     </div>
                     <h5 className={styles.cardTitle}>1. Write &amp; Outline</h5>
@@ -39,7 +39,7 @@ const VideoCreationProcess = () => {
                     <div className='h-75'>
                         <div className="mb-3">
                             <label htmlFor="videoOrientation" className="form-label">Video Orientation</label>
-                            <select className="form-select" id="videoOrientation">
+                            <select className="form-select  bg-white bg-opacity-10 text-white" id="videoOrientation">
                                 <option>Select Video Orientation</option>
                                 {/* Add orientation options */}
                             </select>
@@ -64,7 +64,7 @@ const VideoCreationProcess = () => {
                         </div>
                         <div className="mb-3">
                             <label htmlFor="backgroundSound" className="form-label">Select Background Sound</label>
-                            <select className="form-select" id="backgroundSound">
+                            <select className="form-select  bg-white bg-opacity-10 text-white" id="backgroundSound">
                                 <option>Select Background Sound</option>
                                 {/* Add sound options */}
                             </select>
@@ -76,15 +76,16 @@ const VideoCreationProcess = () => {
                     </p>
                 </div>
 
-                {/* Finish & Export Card */}
                 <div className={`col-md-3 ${styles.processCard}`}>
                     <div className='h-50 m-5'>
                         <div className={styles.exportIndicator}>
-                            {/* Placeholder for the export indicator */}
-                            <div style={{ width: '150px', height: '150px', borderRadius: '50%', backgroundColor: '#333', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            {/* <div style={{ width: '150px', height: '150px', borderRadius: '50%', backgroundColor: '#333', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                 <div style={{ width: '120px', height: '120px', borderRadius: '50%', backgroundColor: '#5e2e87' }}>
-                                    {/* You might use an icon or animation here */}
+                                    
                                 </div>
+                            </div> */}
+                            <div className={styles.switch}>
+                                <img src="/rounding.png" alt="Video Preview 1" className={" mt-5"} style={{borderRadius:"50vw", backgroundColor: '#333', height: 'auto', width: "15vw" }} />
                             </div>
                         </div>
                     </div>

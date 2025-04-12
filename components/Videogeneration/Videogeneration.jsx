@@ -51,7 +51,7 @@ const VideoGeneration = () => {
                         <div className='col-6'>
                             <div className={styles.videoPreviewmain}>
                                 {/* Placeholder for video preview 1 */}
-                                <img src="/elemain.jpg" alt="Video Preview 1" style={{ backgroundColor: '#333', height: '100%' }} />
+                                <img src="/elemain.jpg" alt="Video Preview 1" className="img-fluid" style={{ backgroundColor: '#333',  objectFit: 'cover' }} />
                             </div>
                         </div>
                         <div className='col-6'>
@@ -60,13 +60,13 @@ const VideoGeneration = () => {
                                 <div className="col-md-12 mb-3">
                                     <div className={styles.videoPreview}>
                                         {/* Placeholder for video preview 2 */}
-                                        <img src="/ele1.jpg" alt="Video Preview 2" className="img-fluid" style={{ backgroundColor: '#333', height: '150px', objectFit: 'cover' }} />
+                                        <img src="/ele1.jpg" alt="Video Preview 2" className="img-fluid" style={{ backgroundColor: '#333',  objectFit: 'cover'}} />
                                     </div>
                                 </div>
                                 <div className="col-md-12 mb-3">
                                     <div className={styles.videoPreview}>
                                         {/* Placeholder for video preview 3 */}
-                                        <img src="/ele2.jpg" alt="Video Preview 3" className="img-fluid" style={{ backgroundColor: '#333', height: '150px', objectFit: 'cover' }} />
+                                        <img src="/ele2.jpg" alt="Video Preview 3" className="img-fluid" style={{ backgroundColor: '#333',  objectFit: 'cover' }} />
                                     </div>
                                 </div>
                                 {/* Add more video previews as needed */}
@@ -84,32 +84,32 @@ const VideoGeneration = () => {
                 <div className={`col-md-1 mx-0  ${styles.rightContent}`}>
                     <div className='row mx-0  justify-content-center rounded-5 bg-white bg-opacity-10    py-1'>
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3 '>
-                            <PiDiamondsFourFill size={25} />
+                            <PiDiamondsFourFill size={25} color='white' />
 
                         </div>
 
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3'>
-                            <MdCandlestickChart size={25} />
+                            <MdCandlestickChart size={25} color='white'/>
 
                         </div>
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3'>
-                            <PiCardsThree size={25} />
+                            <PiCardsThree size={25} color='white' />
 
                         </div>
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3'>
-                            <MdExitToApp size={25} />
+                            <MdExitToApp size={25} color='white' />
 
                         </div>
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3'>
-                            <FaDiamond size={25} />
+                            <FaDiamond size={25} color='white' />
 
                         </div>
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3'>
-                            <AiOutlineNodeIndex size={25} />
+                            <AiOutlineNodeIndex size={25} color='white' />
 
                         </div>
                         <div className='col-auto my-1 rounded-5 bg-white bg-opacity-10 p-3'>
-                            <PiMagicWandBold size={25} />
+                            <PiMagicWandBold size={25} color='white' />
 
                         </div>
                     </div>

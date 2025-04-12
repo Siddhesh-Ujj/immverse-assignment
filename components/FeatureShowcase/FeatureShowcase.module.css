@@ -46,7 +46,7 @@
     margin-bottom: 20px;
   }
   
-  .innerIcon {
+  /* .innerIcon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -54,18 +54,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem; /* For a potential star icon */
+    font-size: 1.5rem; 
     color: #bd93f9;
   }
   
-  /* You might use an actual star icon or more complex styling for the central icon */
+ 
   .innerIcon::before {
-    content: '✨'; /* Using a simple star emoji as a placeholder */
-  }
+    content: '✨'; 
+  } */
   
   .centralHeading {
     color: #f8f8f2;
-    font-size: 1.8rem;
+    text-align: center;
+    font-size: 2rem;
     line-height: 1.3;
   }
   
